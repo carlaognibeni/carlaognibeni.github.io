@@ -1,35 +1,37 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+* 
 
 body {
     font-family: georgia, serif;
     font-size: 16px;
     line-height: 24px;
+    background-color: #6EC5CB;
 }
 p {
-    margin-bottom: 16px; /* (or 1 rem) -- tall: px ; wide: % */
+    margin-bottom: 16px;
 }
 
 header { 
     background-color: black;
     color: white;
-    height: 45px;   
+    height: 100px;   
 }
 
 header h1 {
-    float: left;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    padding: 10px;
+    font-family: century gothic, helvetica, sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 25px 0px 25px 0px;
  }
+
+header p {
+    font-family:century gothic, helvetica, sans-serif; 
+    font-size: 20px;
+
+}
 
 header nav {
     float: left;
-    margin-top: 11px
+    margin-top: 10px
 }
 
 header a {
@@ -44,19 +46,23 @@ header a:hover {
 
 article {
     clear: both;
-    padding: 0 10px 0 10px;
+    padding: 50 50px 50 50px;
+    border: 10px solid #cccccc
 }
 
-article h1 {
-    font-size: 36px;
-    line-height:44px; 
-    margin-top: 4px;
-}
  article h2 {
     font-size: 24px;
     line-height: 28px;
-    margin-bottom: 4px;
-}  
+    margin: 10px 10px 10px 10px;
+    font-family: sans-serif;
+} 
+
+article p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    
 
 footer {
     font-size: 12px;
