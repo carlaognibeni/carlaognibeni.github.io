@@ -1,4 +1,8 @@
-* 
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: georgia, serif;
@@ -6,54 +10,57 @@ body {
     line-height: 24px;
     background-color: #6EC5CB;
 }
+
 p {
     margin-bottom: 16px;
 }
 
 header { 
-    background-color: black;
-    color: white;
-    height: 100px;   
+    background-color: #cccccc;
+    height: 80px;
+    margin: 10px 10px 10px 10px;
 }
 
 header h1 {
+    padding-top: 10px;
     font-family: century gothic, helvetica, sans-serif;
-    font-size: 65px;
     font-weight: bold;
-    margin: 25px 0px 25px 0px;
  }
 
-header p {
+header h2 {
     font-family:century gothic, helvetica, sans-serif; 
-    font-size: 20px;
-
-}
-
-header nav {
-    float: left;
-    margin-top: 10px
-}
+    font-size: 18px;
+} 
 
 header a {
-    color: #cccccc;
-    margin-right: 20px;
+    color: #ffffff;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 header a:hover {
-    color: #ffffff;
+    color: #000000;
+}
+ 
+header a:active {
+    text-decoration: underline;
+    
 }
 
-article {
-    clear: both;
-    padding: 50 50px 50 50px;
-    border: 10px solid #cccccc
+
+
+article { 
+    padding: 20px 20px 20px 20px;
 }
 
- article h2 {
+article img {
+    float: right; 
+    margin: 10px; 
+}
+
+ article h1 {
     font-size: 24px;
-    line-height: 28px;
-    margin: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
     font-family: sans-serif;
 } 
 
@@ -62,9 +69,16 @@ article p {
     line-height: 20px;
     margin: 10px 10px 10px 10px;
     font-family: sans-serif;
-    
+}
 
 footer {
     font-size: 12px;
-    padding: 0 10px 0 10px;
+    margin-left: 5px;
 }
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
