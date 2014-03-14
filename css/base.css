@@ -14,15 +14,21 @@ body {
 
 header { 
     background-color: #9DE0AD;
-    height: 100px;
+    height: 105px;
+    width: 700px;
     margin: 10px 10px 0px 10px;
-    border: 5px solid #ffffff;
+    border-top: 5px solid #594F4F;
+    border-left: 5px solid #594F4F;
+    border-right: 5px solid #594F4F;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 header h1 {
     padding-top: 10px;
     font-family: century gothic, helvetica, sans-serif;
+    font-size: 40px;
     font-weight: bold;
     text-align:center;
  }
@@ -31,7 +37,7 @@ header h2 {
     font-family:american typewriter, helvetica, sans-serif; 
     font-size: 18px;
     margin-top: 5px;
-    margin-bottom: 3px;
+    margin-bottom: 13px;
     text-align: center;
 } 
 
@@ -58,6 +64,13 @@ header a:active {
 
 article { 
     padding: 20px 50px 20px 50px;
+    background: #ffffff;
+    border-left: 5px solid #594F4F;
+    border-right: 5px solid #594F4F;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 article img {
@@ -66,13 +79,14 @@ article img {
 }
 
  article h1 {
-    font-size: 36px;
+    font-size: 30px;
     margin: 0px 0px 0px 0px;
     font-family: american typewriter, helvetica, sans-serif;
+    
 } 
 
 article h2 {
-    font-family:sans-serif;
+    font-family:century gothic, helvetica, sans-serif;
     font-size: 20px;
     margin: 10px 0px 10px 0px;
 }
@@ -80,12 +94,12 @@ article h2 {
 article p {
     font-size: 16px;
     line-height: 20px;
-    margin: 10px 10px 10px 20px;
+    margin: 15px 10px 10px 20px;
     font-family: century gothic, helvetica,sans-serif;
 }
 
 article ul {
-    font-family:sans-serif;
+    font-family:century gothic, helvetica, sans-serif;
     line-height: 20px;
     padding-left: 50px;
 }
@@ -93,11 +107,15 @@ article ul {
 
 footer {
     font-size: 14px;
-    margin-left: 5px;
     background-color: #9DE0AD;
-    height: 100px;
+    height: 105px;
+    width: 700px;
     margin: 0px 10px 10px 10px;
-    border: 5px solid #ffffff;
+    border-left: 5px solid #594F4F;
+    border-right: 5px solid #594F4F;
+    border-bottom: 5px solid #594F4F;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer a {
