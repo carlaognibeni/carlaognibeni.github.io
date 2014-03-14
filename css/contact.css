@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/*start body css*/
 
 body {
     font-family: georgia, serif;
@@ -11,6 +12,10 @@ body {
     line-height: 24px;
     background-color: #45ADA8;
 }
+
+/*end body css*/
+
+/*start header css*/
 
 header { 
     background-color: #9DE0AD;
@@ -62,6 +67,10 @@ header a:active {
     
 }
 
+/*end header css*/
+
+/*start article css*/
+
 article { 
     padding: 20px 50px 20px 50px;
     background: #ffffff;
@@ -75,14 +84,15 @@ article {
 
 article img {
     border: 5px dashed #594F4F;
-    margin: 10px;
+    margin: 17px;
+    
 }
 
  article h1 {
     font-size: 30px;
     margin: 0px 0px 0px 0px;
     font-family: american typewriter, helvetica, sans-serif;
-    
+
 } 
 
 article h2 {
@@ -114,6 +124,10 @@ article a:hover {
     color: #000000;
 
 }
+
+/*end article css*/
+
+/*start footer css*/
 
 footer {
     font-size: 14px;
@@ -148,3 +162,6 @@ footer p {
     font-family: american typewriter, helvetica, sans-serif;
     margin-top: 10px;
 }
+
+/*end article css*/
+

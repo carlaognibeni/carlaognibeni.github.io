@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/*start body css*/
 
 body {
     font-family: georgia, serif;
@@ -11,6 +12,10 @@ body {
     line-height: 24px;
     background-color: #45ADA8;
 }
+
+/*end body css*/
+
+/*start header css*/
 
 header { 
     background-color: #9DE0AD;
@@ -61,6 +66,10 @@ header a:active {
     text-decoration: underline;
     
 }
+
+/*end header css*/
+
+/*start article css*/
 
 article { 
     padding: 20px 50px 20px 50px;
@@ -115,6 +124,10 @@ article a:hover {
 
 }
 
+/*end article css*/
+
+/*start footer css*/
+
 footer {
     font-size: 14px;
     background-color: #9DE0AD;
@@ -148,3 +161,5 @@ footer p {
     font-family: american typewriter, helvetica, sans-serif;
     margin-top: 10px;
 }
+
+/*end article css*/
