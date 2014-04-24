@@ -49,11 +49,12 @@ header h2 {
 header a {
     background: #594F4F;
     display: inline-block;
+    margin-left:28.5px;
     width:100px;
-    margin-left:10px;
     font-family: century gothic, helvetica, sans-serif;
     color: #ffffff;
     text-decoration: none;
+    text-align:center;
     
 }
 
@@ -136,19 +137,17 @@ footer {
     background-color: #9DE0AD;
     height: 105px;
     width: 700px;
-    margin: 0px 10px 10px 10px;
     border-left: 5px solid #594F4F;
     border-right: 5px solid #594F4F;
     border-bottom: 5px solid #594F4F;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto; 
 }
 
 footer a {
     font-family: century gothic, helvetica, sans-serif;
     color: #ffffff;
     text-decoration: none;
-    margin-left: 10px;
+    padding-left:70px;  
 }
 
 footer a:hover {
@@ -163,6 +162,8 @@ footer a:active {
 footer p {
     font-family: american typewriter, helvetica, sans-serif;
     margin-top: 10px;
+    padding-left:120px;
+
 }
 
 /*end article css*/
