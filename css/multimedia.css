@@ -49,7 +49,7 @@ header h2 {
 header a {
     background: #594F4F;
     display: inline-block;
-    width:110px;
+    width:100px;
     margin-left:10px;
     font-family: century gothic, helvetica, sans-serif;
     color: #ffffff;
@@ -83,16 +83,16 @@ article {
 }
 
 article img {
-    border: 5px #594F4F;
-    margin: 17px;
-    
+    margin: 10px;
+    size: 50%;
 }
 
  article h1 {
     font-size: 30px;
     margin: 0px 0px 0px 0px;
     font-family: american typewriter, helvetica, sans-serif;
-
+    width=35% height=35%
+    
 } 
 
 article h2 {
@@ -106,6 +106,10 @@ article p {
     line-height: 20px;
     margin: 15px 10px 10px 20px;
     font-family: century gothic, helvetica,sans-serif;
+}
+
+article div {
+    padding: 15px 0 15px 0;
 }
 
 article ul {
@@ -164,4 +168,3 @@ footer p {
 }
 
 /*end article css*/
-

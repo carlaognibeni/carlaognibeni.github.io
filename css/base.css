@@ -85,6 +85,7 @@ article {
 article img {
     float: right; 
     margin: 10px;
+    size: 50%;
 }
 
  article h1 {
@@ -99,6 +100,7 @@ article h2 {
     font-family:century gothic, helvetica, sans-serif;
     font-size: 20px;
     margin: 10px 0px 10px 0px;
+
 }
 
 article p {
